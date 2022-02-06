@@ -1,0 +1,24 @@
+header{
+    background-color: rgb(177, 140, 140);
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+nav{
+    float: left;
+    width: 30%;
+    background: rgb(121, 62, 62);
+    padding:20px;
+    height: 300px;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color:rgb(73, 101, 128);
+    height: 300px;
+}
+input{
+    text-align: right;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Omar Chavez
+    Class:   Software Engineering
+    Description: Rolls 5 dice
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>DiceRoll</title>
+        <link rel="stylesheet" href="DiceRoll.css">
+        <script src="DiceRoll.js"></script>
+        <style>*{
+            box-sizing: border-box;
+        }
+        </style>
+    </head>
+    <body onload="RollDiceOne()">
+    <header>
+        <h1> Yahtzee Dice Roll </h1>
+    </header>
+
+    <nav>
+        <h2>Roll the 5 dice! </h2>
+        <!-- Button that lets dice roll -->
+        <button type="button" autofocus onclick="RollDiceOne()">Roll Dice</button><br><br>
+        <br>
+        <!-- Tells the person how to use-->
+        <h4> Click the "Roll dice" button and it will roll five dice for you, good for yahtzee</h4> 
+    </nav>
+    <article >
+        <h2> Results </h2> <!--this makes the dice roll five times with one button. made it read only-->
+        Dice One: <input id="dice" type="text" value="" size="5" disabled readonly><br><br> 
+        Dice Two: <input id="diceTwo" type="text" value="" size="5" disabled readonly><br><br>
+        Dice Three: <input id="diceThree" type="text" value="" size="5" disabled readonly><br><br>
+        Dice Four: <input id="diceFour" type="text" value="" size="5" disabled readonly><br><br>
+        Dice Five: <input id="diceFive" type="text" value="" size="5" disabled readonly><br><br>
+
+    </article>
+       
+    </body>
+</html>
